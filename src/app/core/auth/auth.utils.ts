@@ -188,6 +188,8 @@ export class AuthUtils
     {
         // Get the decoded token
         const decodedToken = this._decodeToken(token);
+        console.log(decodedToken);
+        
 
         // Return if the decodedToken doesn't have an 'exp' field
         if ( !decodedToken.hasOwnProperty('exp') )

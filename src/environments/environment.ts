@@ -4,8 +4,8 @@
 
 export const environment = {
     production: false,
-    // APIurl: "http://localhost:8080/api/v1"
-    APIurl: "https://patrol-simulator-backend-test.fly.dev/api/v1"
+    APIurl: "http://localhost:3000/api/v1"
+    //APIurl: "https://patrol-simulator-backend-test.fly.dev/api/v1"
 };
 
 /*
